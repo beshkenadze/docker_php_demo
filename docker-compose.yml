@@ -11,7 +11,7 @@ services:
         expose:
           - "9000"
         environment:
-          SYMFONY_ENV: ${SYMFONY_ENV}
+          PHP_ENV: ${SYMFONY_ENV}
         links:
           - db
         stdin_open: true
